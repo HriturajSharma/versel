@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crouser {
+    height: 500px;
+    width: 900px;
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+.crouser-card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px slategray;
+    position: relative;
+
+
+
+
+}
+.left-arrow{
+    height: 25px;
+    width: 25px;
+    margin: 20px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    cursor: pointer;
+
+    /* background-color: red; */
+}
+.right-arrow{
+    height: 25px;
+    width: 25px;
+    margin: 20px;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    cursor: pointer;
+}
+
+.left {
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.product-name{
+    padding-bottom: 20px;
+}
+.crousel-detail{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating{
+    padding-top: 20px;
+}
+.desc{
+    font-size: 14px;
+    color: gray;
+}
+
+.crouser-price {
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.right {
+    height: 100%;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crouser-image {
+    height: 350px
+}
+.crouser-cardHidden{
+    display: none;
+}
+.indicators {
+  display: flex;
+  position: absolute;
+  bottom: .6rem;
+  left: 350px;
+}
+
+.indicator{
+    background-color: rgb(149, 197, 255);
+  height: 6px;
+  width: 6px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  margin: 0 0.1rem;
+  cursor: pointer;
+
+}
+.indicator-inactive {
+  background-color: grey;
+}
+
+
+
